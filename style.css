@@ -1,0 +1,111 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #1e3a8a;
+    font-size: 28px;
+    text-align: center;
+}
+
+.registration-form {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    color: #333333;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 4px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: 2px solid #93c5fd;
+}
+
+.gender {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.gender input {
+    width: auto;
+    margin: 0;
+}
+
+.gender label {
+    display: inline;
+    margin: 0;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.terms input {
+    width: auto;
+    margin: 0;
+}
+
+.terms label {
+    margin: 10px 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+button {
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    flex: 1;
+}
+
+.register-btn {
+    background-color: #2563eb;
+}
+
+.register-btn:hover {
+    background-color: #1d4ed8;
+}
+
+.reset-btn {
+    background-color: #6b7280;
+}
+
+.reset-btn:hover {
+    background-color: #4b5563;
+}
